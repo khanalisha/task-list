@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        scroll-behavior: smooth;
+      }
+      nav {
+        background-color: #ef6136;
+        padding: 10px;
+        display: flex;
+        gap: 15rem;
+      }
+      .logo {
+        margin-left: 10rem;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+      }
+      img {
+        width: 50px;
+        height: 50px;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+      }
+      li {
+        display: inline;
+        margin-right: 10px;
+      }
+      a {
+        color: white;
+        text-decoration: none;
+        margin-left: 2rem;
+      }
+      main {
+        align-items: center;
+        justify-content: center;
+        background-image: url("https://wallpapercave.com/wp/wp8149811.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 80vh;
+      }
+      .main-content {
+        position: absolute;
+        top: 30%; /* Added */
+        left: 43%;
+        font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+        font-size: 24px;
+
+        font-weight: 600;
+
+        line-height: 30px;
+
+        color: rgb(25, 27, 38);
+      }
+
+      .btn-div {
+        position: absolute;
+        top: 42%; /* Added */
+        left: 50%;
+        transform: translate(-50%, -50%); /* Added */
+
+        width: 90px;
+        height: 90px;
+        border: 5px solid #f04f1e;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+      span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        width: 60px;
+        height: 60px;
+        border: 5px solid #f04f1e;
+        border-radius: 50%;
+        background-color: #f04f1e;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-family: __Inter_9da747, __Inter_Fallback_9da747, "Helvetica Neue",
+          Helvetica, Arial, sans-serif;
+
+        font-size: 15px;
+
+        font-weight: 600;
+
+        line-height: 20.8px;
+
+        color: rgba(255, 255, 255, 0.9);
+      }
+      span a {
+        margin: 0px;
+      }
+      footer {
+        display: flex;
+        padding: 20px;
+        gap: 5rem;
+        background-color: #ef6136;
+      }
+      label {
+        font-weight: bold;
+        margin-bottom: 10px;
+        font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+        font-size: 13px;
+        font-weight: 700;
+
+        line-height: 20.8px;
+
+        color: rgb(255, 255, 255);
+      }
+      .footer-li {
+        color: #747272;
+        font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+        font-size: 13px;
+
+        font-weight: 600;
+
+        line-height: 20.8px;
+        margin-bottom: 5px; /* Add space between list items */
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navBar">
+      <div class="logo">
+        <a href="index.html"><img src="icon/icon.png" alt="" /></a>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Dashboard.html">Dashboard</a></li>
+        <li><a href="TaskList.html">TaskList</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <p class="main-content">Just plan your Task</p>
+      <div class="btn-div">
+        <span><a href="Dashboard.html">START</a></span>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <label>Contact</label>
+
+        <div class="footer-li">Calendar of festivities</div>
+        <div class="footer-li">New assets</div>
+        <div class="footer-li">The most popular content</div>
+        <div class="footer-li">Search trends</div>
+      </div>
+
+      <div class="footer-container">
+        <label>Information</label>
+
+        <div class="footer-li">Pricing</div>
+        <div class="footer-li">About us</div>
+        <div class="footer-li">Api</div>
+        <div class="footer-li">Sell your job</div>
+        <div class="footer-li">Freepik brand guidelines</div>
+      </div>
+      <div class="footer-container">
+        <label>Legal</label>
+        <div class="footer-li">Pricing</div>
+        <div class="footer-li">About us</div>
+        <div class="footer-li">Press room</div>
+        <div class="footer-li">Search trends</div>
+        <div class="footer-li">Api</div>
+      </div>
+    </footer>
+  </body>
+</html>
