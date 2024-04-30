@@ -139,6 +139,7 @@ ul li span:hover {
 footer {
   display: flex;
   padding: 20px;
+  margin-top: 20rem;
   gap: 5rem;
   background-color: #ef6136;
 }
@@ -155,7 +156,7 @@ label {
   color: rgb(255, 255, 255);
 }
 .footer-li {
-  color: #747272;
+  color: #383737;
   font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
 
   font-size: 13px;
@@ -164,4 +165,8 @@ label {
 
   line-height: 20.8px;
   margin-bottom: 5px;
+}
+
+.footer-li:hover{
+  color: black;
 }
